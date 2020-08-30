@@ -37,14 +37,14 @@ body {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: 300;
-  src: url(/SourceSansPro-Regular.ttf); }
+  src: url(SourceSansPro-Regular.ttf); }
 
 @font-face {
   font-family: Source Sans Pro;
   font-style: normal;
   font-weight: 600;
-  src: url(/SourceSansPro-Bold.ttf); }
-  
+  src: url(SourceSansPro-Bold.ttf); }
+
 
 /* Sizes
 ---------------------------------------------------------------------------- */
@@ -97,7 +97,7 @@ section {
   margin-left: 370px;
   margin-right: 370px; }
   .main-header__title {
-    font-family: SourceSansPro-Bold;
+    font-family: Source Sans Pro;
     top: -50px; }
   .main-header__dropdown-select {
     position: relative;
