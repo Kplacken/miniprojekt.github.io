@@ -25,7 +25,7 @@ async function fetchData(apiURL, parseJSON = true) {
 
 const newArray = [];
 
-fetch("/cda-paintings-v2.de.json").then(function (response) {
+fetch("cda-paintings-v2.de.json").then(function (response) {
     return response.json();
 }).then(function (data) {
 
