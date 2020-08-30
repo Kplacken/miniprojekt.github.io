@@ -20,11 +20,12 @@ async function fetchData(apiURL, parseJSON = true) {
     return data;
 }
 
+
 //-----------------------neues JSON bauen-------------------------------------------------------------//
 
 const newArray = [];
 
-fetch("../JSON/cda-paintings-v2.de.json").then(function (response) {
+fetch("/cda-paintings-v2.de.json").then(function (response) {
     return response.json();
 }).then(function (data) {
 
@@ -86,7 +87,7 @@ fetch("../JSON/cda-paintings-v2.de.json").then(function (response) {
     async function mustache() {
 
         var mustacheElement = document.querySelector('[data-js-render-mustache]');
-        const templateURL = await fetchData('./template.html', false);
+        const templateURL = await fetchData('template.html', false);
 
         const renderedSection = Mustache.render(templateURL, { daten: object_1 })
         mustacheElement.innerHTML = renderedSection;
