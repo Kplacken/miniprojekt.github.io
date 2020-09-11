@@ -190,7 +190,7 @@ section {
   position: relative;
   margin-left: 370px;
   margin-right: 370px;
-  transform: translateY(30%);
+  transform: translateY(50%);
   border: 1px solid #F0F0F0;
   z-index: 1;
   background-color: #222222; }
