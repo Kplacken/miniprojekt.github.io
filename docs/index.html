@@ -126,7 +126,11 @@ fetch("cda-paintings-v2.de.json").then(function (response) {
 
 });
     
-
+   var hamburger = document.querySelector(".hamburger-button");
+   hamburger.onclick = function () {
+      this.classList.toggle ("checked");
+   }
+    
   </script>
   
   <script src="https://unpkg.com/mustache@latest"></script>
